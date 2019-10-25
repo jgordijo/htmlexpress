@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto Web Design Express</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<meta name="keywords" content="palavras-chave, pesquisas google, SEO, Lorem ipsum">
+	<meta name="author" content="Julio Cesar Gordijo Filho">
+	<meta name="description" content="Projeto 01 Web Design Express">
+	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo"><a href="index.html"><h2>Projeto Prático</h2></a></div>
+				<nav class="menu-desktop">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="sobre.html">Sobre</a>
+						</li>
+						<li class="selected">
+							<a href="contato.html">Contato</a>
+						</li>
+					</ul>
+				</nav>
+				<nav class="menu-mobile">
+				<h2><i class="fas fa-bars"></i></h2>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="sobre.html">Sobre</a>
+						</li>
+						<li class="selected">
+							<a href="contato.html">Contato</a>
+						</li>
+					</ul>
+				</nav>
+		
+			<div class="clear"></div>
+		</div>
+	</header>
+		<section style="background-image:url(images/img2.jpg);" class="title-page">
+		<div class="overlay__title-page"></div>
+		<div class="container">
+			<h2>Contato</h2>
+			<p>Ad minim ut aliqua dolor laborum consequat elit officia magna proident enim quis veniam fugiat sunt.</p>
+		</div><!--container-->
+	</section><!--title-page-->
+	<section class="contato">
+				<div class="container">
+			<div class="w60 formulario">
+				<h2>Entre em contato que estaremos respondendo o mais breve possível.</h2>
+				<form method="post">
+					<div class="w50">
+						<input placeholder="Nome" type="text" required />
+					</div><!--w50-->
+					<div class="w50">
+						<input placeholder="Sobrenome" type="text" required />
+					</div><!--w50-->
+					<div class="w100">
+						<input placeholder="E-mail" type="email" required />
+					</div><!--w100-->
+					<div class="w100">
+						<textarea placeholder="Sua mensagem..."></textarea>
+					</div><!--w100-->			
+
+				</form>
+			</div><!--w60-->
+
+			<div class="w40 tags-form">
+				<h2><i class="fas fa-comment"></i>Fale com a nossa equipe!</h2>
+				<p>Ex quis consectetur eu aute nulla do eu minim laboris deserunt dolore laborum sed eiusmod occaecat.</p>
+
+				<p class="tag-contato"><i class="fab fa-facebook-f"></i> /jgordijo</p>
+				<p class="tag-contato"><i class="fab fa-instagram"></i> /jgordijo</p>
+				<p class="tag-contato"><i class="fab fa-whatsapp"></i> (11) 95149-7877</p>
+
+			</div><!--w40 tags-form-->
+		<div class="clear"></div>
+		</div><!--container-->
+		</section><!--contato-->
+
+	<footer class="footer1">
+		<div class="container">
+			<div class="center">
+			<div class="w33">
+				<h2>Aonde estamos?</h2>
+				<p><i class="fas fa-map-marker-alt"></i> Rua Alvaro Alvim, 370. São bernardo do Campo - SP</p>
+				<p><i class="fas fa-phone"></i> (11) 95149-7877</p>
+			</div><!--w33-->
+			<div class="w33">
+				<h2>Links úteis</h2>
+				<a href="http://www.google.com.br" target="_blank">Google</a>
+				<a href="http://www.w3schools.com" target="_blank">W3 Schools</a>
+			</div><!--w33-->
+			<div class="w33">
+				<h2>Conecte-se conosco</h2>
+				<div class="group-icons">
+					<a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+			</div><!--w33-->
+			</div><!--center-->
+		</div><!--container-->
+		<div class="clear"></div>
+	</footer><!--footer1-->
+
+	<footer class="footer2">
+		<div class="container">
+			<p>Todos os direitos reservados.</p>
+		</div><!--container-->
+	</footer><!--footer2-->
+	<script src="css/jquery-3.3.1.min.js"></script>
+	<script>
+		$('nav.menu-mobile h2').click(function(){
+			$('nav.menu-mobile ul').slideToggle();
+		});
+	</script><!--Toggle menu mobile-->
+</body>
+</html>
